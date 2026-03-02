@@ -30,8 +30,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files 
 .env*
+
+# SQLite database (local GUID storage)
+cybrid-store.db
+cybrid-store.db-wal
+cybrid-store.db-shm
 
 # vercel
 .vercel
